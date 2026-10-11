@@ -150,3 +150,6 @@ How `ps_bridge.py` routes commands into Photoshop's DOM:
 | `Not authorized to send Apple events` | System Settings → Privacy & Security → Automation → allow your terminal to control Photoshop. |
 | `No Adobe Photoshop installation found` | Pass the name explicitly: `--app "Adobe Photoshop 2025"` or `PS_APP=...`. |
 | Font error on a text layer | Change the PostScript font names in `generate_poster.py`. To check one, run `python3 ps_bridge.py -e 'app.fonts.getByName("Futura-Bold").name'`. |
+
+**Recording:** 
+[https://youtu.be/W3VVmPq8CYk](https://youtu.be/W3VVmPq8CYk)
